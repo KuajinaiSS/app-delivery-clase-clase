@@ -2,7 +2,7 @@ import { AxiosError } from "axios";
 import { User } from "../../Domain/entities/User";
 import { AuthRepository } from "../../Domain/repositories/AuthRepository";
 import { ApiDelivery } from "../sources/remote/api/ApiDelivery";
-import { ResponseAPIDelivery } from "../sources/remote/api/models/ResponseAPIDelivery";
+import { ResponseAPIDelivery } from "../sources/remote/api/models/ResponseApiDelivery";
 import mime from 'mime';
 import { ImageInfo, ImagePickerAsset } from "expo-image-picker";
 
