@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text, StyleSheet, Image, ScrollView, TouchableOpacity } from 'react-native'
 
 import styles from './Styles';
-import { RoundedButton } from '../../components/RoundedButton';
+import { RoundedButton } from '../../../components/RoundedButton';
 import { StackScreenProps } from '@react-navigation/stack';
 import { RootStackParamsList } from '../../navigator/MainAppStack';
 
@@ -15,13 +15,13 @@ const LoginScreen = ({ navigation, route }: Props) => {
     <View style={styles.container}>
       <Image
         style={styles.imageBackground}
-        source={require('../../../assets/background.jpg')}
+        source={require('../../../../assets/background.jpg')}
       />
 
       <View style={styles.logoContainer}>
         <Image
           style={styles.logo}
-          source={require('../../../assets/logo.png')}
+          source={require('../../../../assets/logo.png')}
         />
         <Text style={styles.logoText}>Vuelta al menú en 365 platos</Text>
       </View>
